@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 import numpy as np 
 import pickle 
 
@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home(): 
-	return 'Home'
+	return render_template('home.html')
 
 @app.route('/predict')
 def predict():
