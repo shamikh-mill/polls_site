@@ -1,28 +1,11 @@
-# Django Polls Application
+### API using scikit-learn to make predictions 
+
+We use the Flask framework to deploy our scikit-learn classifier to the web in this experiment. We will use the famous iris flower dataset, in which petal length, width and sepal length are used to predict the class of Iris flower. We can use this as a proof of concept for web-based ML prediction APIs, and develop more complex ones in the future.
+
+Dependencies: Flask, scikit-learn 
 
 
-## Some common steps
-
-1. Starting a project:
- ````
- django-admin startproject <sitename>
- ````
- 2. Running a project
- ````
- python manage.py runserver
- ````
- 3. Adding a new app
- ````
- python manage.py runserver
- ````
- What’s the difference between a project and an app? An app is a Web application that does something – e.g., a Weblog
- system, a database of public records or a simple poll app. A project is a collection of configuration and apps for a
- particular website. A project can contain multiple apps. An app can be in multiple projects.
-
-
-
-Admin: shamikh
-Pass: thisispassword
-
-
-Progress: https://docs.djangoproject.com/en/1.11/intro/tutorial02/
+Resources 
+1. http://blog.socratesk.com/blog/2018/01/29/expose-ML-model-as-REST-API
+2. https://www.wintellect.com/creating-machine-learning-web-api-flask/
+3. https://blog.hyperiondev.com/index.php/2018/02/01/deploy-machine-learning-model-flask-api/
