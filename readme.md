@@ -9,3 +9,4 @@ Resources
 1. http://blog.socratesk.com/blog/2018/01/29/expose-ML-model-as-REST-API
 2. https://www.wintellect.com/creating-machine-learning-web-api-flask/
 3. https://blog.hyperiondev.com/index.php/2018/02/01/deploy-machine-learning-model-flask-api/ 
+4. https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html
