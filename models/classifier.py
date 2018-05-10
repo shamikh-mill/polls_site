@@ -13,7 +13,7 @@ labels = iris.target
 # Train SVM classifier on the data 
 clf = svm.SVC(kernel='poly', degree=3, C=1.0).fit(features, labels)
 
-# Evaluate 
+# Evaluate with cross validation
 scores = cross_val_score(clf, features, labels, cv=5)
 print (scores)
 
